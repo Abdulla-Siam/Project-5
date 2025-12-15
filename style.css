@@ -82,3 +82,30 @@ nav{
     align-self: flex-start;
     background:#ffc066;
 }
+
+/* Features Section */
+
+.features{
+    display: flex;
+    margin-top: 100px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.feature img{
+    width: 72px;
+}
+
+.feature{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+    border-radius: 6px;
+}
+
+.feature:hover{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    transition: 0.2s ease-in-out;
+}
