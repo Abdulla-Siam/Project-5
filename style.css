@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+button{
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    transition: 0.2s ease-in-out;
+}
+button:hover{
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
+}
+
+/* Header Section */
+
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    position: sticky;
+    top: 0;
+    margin-bottom: 32px;
+    background: white;
+    padding: 10px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-icon{
+    font-size: 32px;
+}
+
+/* Content Section */
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tag{
+    background: #149f39;
+    color: white;
+    padding: 5px 10px;
+    align-self: flex-start;
+    border-radius: 4px;
+}
+
+.content-info h1{
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.btn{
+    align-self: flex-start;
+    background:#ffc066;
+}
